@@ -1482,6 +1482,14 @@
             <field name="I" type="float">I component</field>
             <field name="D" type="float">D component</field>
         </message>
+        
+        <!-- realtime Lidar360 information  -->
+        <message id="199" name="LIDAR_360_INFO">
+        	<description>Lidar360 information</description>
+			<field name="left_distance" type="float">Left Point Distance (meters)</field>
+			<field name="right_distance" type="float">Right Point Distance (meters)</field>
+        </message>
+        
 
         <message id="200" name="GIMBAL_REPORT">
             <description>3 axis gimbal mesuraments</description>
